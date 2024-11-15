@@ -63,10 +63,11 @@ public class ProductAvailabilityService {
 
 		// iterate over the list and find those product which matches the given category
 		for (Product p : userProductList) {
-			if (productCategory.equals(p.getProductCategory())) {
+			if (productCategory.equalsIgnoreCase(p.getProductCategory())) {
 				categoryProductList.add(p);
 			}
 		}
+		System.out.println("");
 		return categoryProductList;
 	}
 

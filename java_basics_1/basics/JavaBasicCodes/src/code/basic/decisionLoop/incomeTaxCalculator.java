@@ -1,4 +1,4 @@
-package com.decisionLoop;
+package code.basic.decisionLoop;
 
 public class incomeTaxCalculator {
 

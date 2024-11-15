@@ -1,5 +1,4 @@
-package com.decisionLoop;
-
+package code.basic.decisionLoop;
 import java.util.Scanner;
 
 public class pensionContriCalculator {

@@ -1,6 +1,6 @@
-package com.patterns;
+package code.basic.pattern;
 
-public class triPatternB {
+public class triPatternC {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,9 +9,12 @@ public class triPatternB {
 			for (int j = n; j > i; j--) {
 				System.out.print("*");
 			}
-			System.out.println("");
-		}
+			System.out.print("\n");
+			for (int k = 0; k <= i; k++) {
+				System.out.print(" ");
+			}
 
+		}
 	}
 
 }
